@@ -1,0 +1,37 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Eplan.EplAddIn.KAZPROMMenu</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Eplan.EplAddIn.KAZPROMMenu</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Eplan.EplAddIn.KAZPROMMenu.csproj" File="Eplan.EplAddIn.KAZPROMMenu.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="About.cs">About.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="app.config">app.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Class1.cs">Class1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.cs">Form1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.Designer.cs">Form1.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.resx">Form1.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="IAction_Test.cs">IAction_Test.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Placement3D.cs">Placement3D.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UpdatePrice.cs">UpdatePrice.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UpdatePriceForm.cs">UpdatePriceForm.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UpdatePriceForm.Designer.cs">UpdatePriceForm.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UpdatePriceForm.resx">UpdatePriceForm.resx</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
